@@ -1,0 +1,1962 @@
+{
+ "baseline": [
+  {
+   "check_name": "pk_unique:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "7200 rows"
+  },
+  {
+   "check_name": "id_pattern:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "8064 rows"
+  },
+  {
+   "check_name": "id_pattern:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "10000 rows"
+  },
+  {
+   "check_name": "id_pattern:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "30000 rows"
+  },
+  {
+   "check_name": "id_pattern:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "24273 rows"
+  },
+  {
+   "check_name": "id_pattern:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "25892 rows"
+  },
+  {
+   "check_name": "id_pattern:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "69067 rows"
+  },
+  {
+   "check_name": "id_pattern:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "7721 rows"
+  },
+  {
+   "check_name": "id_pattern:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "4834 rows"
+  },
+  {
+   "check_name": "id_pattern:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "1175 rows"
+  },
+  {
+   "check_name": "id_pattern:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "44085 rows"
+  },
+  {
+   "check_name": "id_pattern:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "57739 rows"
+  },
+  {
+   "check_name": "id_pattern:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "2184 rows"
+  },
+  {
+   "check_name": "id_pattern:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "17024 rows"
+  },
+  {
+   "check_name": "id_pattern:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:account.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:loan.account_id->account.account_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:loan.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:installment.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment_allocation.payment_id->payment.payment_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment_allocation.installment_id->installment.installment_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:delinquency_snapshot.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_preference.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:collection_case.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:collection_case.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:flag_event.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:flag_event.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_attempt.case_id->collection_case.case_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_attempt.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_scheduling_log.case_id->collection_case.case_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_scheduling_log.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_scheduling_log.attempt_id->contact_attempt.attempt_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.case_id->collection_case.case_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.attempt_id->contact_attempt.attempt_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:payment.reference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:installment(loan,number)",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:payment_allocation(payment,installment)",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:customer.email",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:snapshot(loan,date)",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "open_cases_per_loan<=1",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:loan first_due>origination, maturity>=first_due",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:loan origination >= account opened",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "customer_consistency:loan.customer == account.customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:payment after origination and <= reference date",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:allocation_date == payment_date",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:case closed>=opened",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:account closed>=opened",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:promise promised_date>=created_date",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:attempt within case life",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:preference effective_to>=effective_from",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "preferences: exactly one ACTIVE per customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "ids:attempt_id == CTP-<case_id>-<sequence>",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "ids:installment_id == INS-<loan_id>-<nnn>",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:loan.total_payable == SUM(installment.amount_due)",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:installment principal+interest == amount_due",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:installment count == tenor",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:installment.amount_paid == SUM(allocations)",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:allocations never exceed instalment amount_due",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "payment_allocation: SUM(allocations) == payment.amount (fully allocated)",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "payment_allocation: allocation stays within the payment's loan",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:reference-date snapshot == recomputation from source",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:loan.loan_status == derived status",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:total_arrears == SUM(instalment amount_due - amount_paid) for overdue instalments",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:status <-> date-field consistency (payoff/closed/fully_paid/outcome/evaluated_on)",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:loan status transitions across snapshots are legal (PAID_OFF terminal)",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:no case transition out of RESOLVED (audit trail)",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:every case has a CASE_OPENED audit event",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "promise_reconciliation:status/amount_received == recomputed from payments",
+   "category": "BUSINESS_RULE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "promise_reconciliation:arrears_at_creation == recomputed arrears",
+   "category": "BUSINESS_RULE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "exception:PAID_ACCOUNT_IN_COLLECTION",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "exception:CONTACT_OUTSIDE_ALLOWED_WINDOW",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "exception:PAYMENT_ALLOCATED_TO_WRONG_INSTALLMENT",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "exception:PROMISE_AMOUNT_EXCEEDS_ARREARS",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "exception:DISPUTED_DEBT_TREATED_AS_CONFIRMED",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  }
+ ],
+ "final": [
+  {
+   "check_name": "pk_unique:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "7200 rows"
+  },
+  {
+   "check_name": "id_pattern:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "8064 rows"
+  },
+  {
+   "check_name": "id_pattern:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "10000 rows"
+  },
+  {
+   "check_name": "id_pattern:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "30000 rows"
+  },
+  {
+   "check_name": "id_pattern:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "24273 rows"
+  },
+  {
+   "check_name": "id_pattern:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "25892 rows"
+  },
+  {
+   "check_name": "id_pattern:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "69067 rows"
+  },
+  {
+   "check_name": "id_pattern:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "7721 rows"
+  },
+  {
+   "check_name": "id_pattern:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "4864 rows"
+  },
+  {
+   "check_name": "id_pattern:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "1175 rows"
+  },
+  {
+   "check_name": "id_pattern:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "44115 rows"
+  },
+  {
+   "check_name": "id_pattern:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "57739 rows"
+  },
+  {
+   "check_name": "id_pattern:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "2214 rows"
+  },
+  {
+   "check_name": "id_pattern:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "pk_unique:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": "17144 rows"
+  },
+  {
+   "check_name": "id_pattern:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:account.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:loan.account_id->account.account_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:loan.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:installment.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment_allocation.payment_id->payment.payment_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:payment_allocation.installment_id->installment.installment_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:delinquency_snapshot.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_preference.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:collection_case.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:collection_case.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:flag_event.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:flag_event.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_attempt.case_id->collection_case.case_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_attempt.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_scheduling_log.case_id->collection_case.case_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_scheduling_log.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:contact_scheduling_log.attempt_id->contact_attempt.attempt_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.case_id->collection_case.case_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.loan_id->loan.loan_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.customer_id->customer.customer_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "fk:promise_to_pay.attempt_id->contact_attempt.attempt_id",
+   "category": "STRUCTURAL",
+   "severity": "CRITICAL",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:account",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:loan",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:installment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:payment",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:payment_allocation",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:delinquency_snapshot",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:contact_preference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:collection_case",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:flag_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:contact_attempt",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:contact_scheduling_log",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:promise_to_pay",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "enum_values:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "mandatory_values:audit_event",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:payment.reference",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:installment(loan,number)",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:payment_allocation(payment,installment)",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:customer.email",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dup:snapshot(loan,date)",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "open_cases_per_loan<=1",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:loan first_due>origination, maturity>=first_due",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:loan origination >= account opened",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "customer_consistency:loan.customer == account.customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:payment after origination and <= reference date",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:allocation_date == payment_date",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:case closed>=opened",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:account closed>=opened",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:promise promised_date>=created_date",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:attempt within case life",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "dates:preference effective_to>=effective_from",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "preferences: exactly one ACTIVE per customer",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "ids:attempt_id == CTP-<case_id>-<sequence>",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "ids:installment_id == INS-<loan_id>-<nnn>",
+   "category": "STRUCTURAL",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:loan.total_payable == SUM(installment.amount_due)",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:installment principal+interest == amount_due",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:installment count == tenor",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:installment.amount_paid == SUM(allocations)",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:allocations never exceed instalment amount_due",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "payment_allocation: SUM(allocations) == payment.amount (fully allocated)",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "payment_allocation: allocation stays within the payment's loan",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:reference-date snapshot == recomputation from source",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:loan.loan_status == derived status",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "arith:total_arrears == SUM(instalment amount_due - amount_paid) for overdue instalments",
+   "category": "ARITHMETIC",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:status <-> date-field consistency (payoff/closed/fully_paid/outcome/evaluated_on)",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:loan status transitions across snapshots are legal (PAID_OFF terminal)",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:no case transition out of RESOLVED (audit trail)",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "lifecycle:every case has a CASE_OPENED audit event",
+   "category": "LIFECYCLE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "promise_reconciliation:status/amount_received == recomputed from payments",
+   "category": "BUSINESS_RULE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "promise_reconciliation:arrears_at_creation == recomputed arrears",
+   "category": "BUSINESS_RULE",
+   "severity": "HIGH",
+   "passed": 1,
+   "violation_count": 0,
+   "detail": ""
+  },
+  {
+   "check_name": "exception:PAID_ACCOUNT_IN_COLLECTION",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 0,
+   "violation_count": 30,
+   "detail": "e.g. ['COL-2026-004835', 'COL-2026-004836', 'COL-2026-004837', 'COL-2026-004838', 'COL-2026-004839']"
+  },
+  {
+   "check_name": "exception:CONTACT_OUTSIDE_ALLOWED_WINDOW",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 0,
+   "violation_count": 30,
+   "detail": "e.g. ['CTP-COL-2026-000161-054', 'CTP-COL-2026-000234-002', 'CTP-COL-2026-000348-005', 'CTP-COL-2026-000401-011', 'CTP-COL-2026-000713-045']"
+  },
+  {
+   "check_name": "exception:PAYMENT_ALLOCATED_TO_WRONG_INSTALLMENT",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 0,
+   "violation_count": 30,
+   "detail": "e.g. ['PMT-2026-021840', 'PMT-2026-022174', 'PMT-2026-022240', 'PMT-2026-022261', 'PMT-2026-022330']"
+  },
+  {
+   "check_name": "exception:PROMISE_AMOUNT_EXCEEDS_ARREARS",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 0,
+   "violation_count": 30,
+   "detail": "e.g. ['PTP-2026-002185', 'PTP-2026-002186', 'PTP-2026-002187', 'PTP-2026-002188', 'PTP-2026-002189']"
+  },
+  {
+   "check_name": "exception:DISPUTED_DEBT_TREATED_AS_CONFIRMED",
+   "category": "BUSINESS_RULE_EXCEPTION",
+   "severity": "HIGH",
+   "passed": 0,
+   "violation_count": 30,
+   "detail": "e.g. ['COL-2026-000098', 'COL-2026-000235', 'COL-2026-000251', 'COL-2026-000281', 'COL-2026-000298']"
+  }
+ ],
+ "evaluation": [
+  {
+   "issue_type": "CONTACT_OUTSIDE_ALLOWED_WINDOW",
+   "ground_truth": 30,
+   "detected": 30,
+   "true_positive": 30,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  {
+   "issue_type": "DISPUTED_DEBT_TREATED_AS_CONFIRMED",
+   "ground_truth": 30,
+   "detected": 30,
+   "true_positive": 30,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  {
+   "issue_type": "PAID_ACCOUNT_IN_COLLECTION",
+   "ground_truth": 30,
+   "detected": 30,
+   "true_positive": 30,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  {
+   "issue_type": "PAYMENT_ALLOCATED_TO_WRONG_INSTALLMENT",
+   "ground_truth": 30,
+   "detected": 30,
+   "true_positive": 30,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  },
+  {
+   "issue_type": "PROMISE_AMOUNT_EXCEEDS_ARREARS",
+   "ground_truth": 30,
+   "detected": 30,
+   "true_positive": 30,
+   "false_positive": 0,
+   "false_negative": 0,
+   "precision": 1.0,
+   "recall": 1.0
+  }
+ ]
+}

@@ -1,0 +1,49 @@
+{
+  "rules_version": "RULES-2026.1",
+  "disclaimer": "ILLUSTRATIVE POLICY PARAMETERS ONLY. They are configurable placeholders chosen for this exercise and are NOT statements of any law or regulation. Real deployments must have contact windows, frequency limits, hardship and dispute handling reviewed by qualified legal/compliance staff against the regulations that apply in the relevant jurisdiction.",
+  "jurisdiction_profiles": {
+    "POLICY_A": {
+      "description": "Illustrative profile A: Mon-Sat, 08:00-19:00, max 1/day, max 3/week",
+      "allowed_days": ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
+      "window_start": "08:00", "window_end": "19:00",
+      "max_attempts_per_day": 1, "max_attempts_per_week": 3,
+      "time_window_channels": ["PHONE", "SMS"],
+      "blackout_dates": []
+    },
+    "POLICY_B": {
+      "description": "Illustrative profile B (stricter): Mon-Fri, 09:00-18:00, max 1/day, max 2/week",
+      "allowed_days": ["MON", "TUE", "WED", "THU", "FRI"],
+      "window_start": "09:00", "window_end": "18:00",
+      "max_attempts_per_day": 1, "max_attempts_per_week": 2,
+      "time_window_channels": ["PHONE", "SMS"],
+      "blackout_dates": []
+    },
+    "POLICY_C": {
+      "description": "Illustrative profile C: Mon-Sat, 08:00-20:00, max 2/day, max 4/week",
+      "allowed_days": ["MON", "TUE", "WED", "THU", "FRI", "SAT"],
+      "window_start": "08:00", "window_end": "20:00",
+      "max_attempts_per_day": 2, "max_attempts_per_week": 4,
+      "time_window_channels": ["PHONE", "SMS"],
+      "blackout_dates": []
+    }
+  },
+  "case_policy": {
+    "case_open_dpd": 7,
+    "promise_grace_days": 3,
+    "promise_max_ratio_of_arrears": 1.0,
+    "paid_off_tolerance": 0.005,
+    "lookahead_days_for_slot": 14,
+    "default_dpd": 90
+  },
+  "scoring": {
+    "arrears_amount_bands": [[0, 10000, 5], [10000, 30000, 12], [30000, 80000, 20], [80000, null, 30]],
+    "dpd_bands": [[0, 14, 8], [14, 30, 16], [30, 60, 24], [60, null, 30]],
+    "late_installment_points_each": 5,
+    "late_installment_cap": 15,
+    "risk_points": {"LOW": 2, "MEDIUM": 6, "HIGH": 10},
+    "broken_promise_points_each": 5,
+    "broken_promise_cap": 10,
+    "outstanding_balance_bands": [[0, 50000, 1], [50000, 150000, 3], [150000, null, 5]],
+    "category_thresholds": {"P1_HIGH": 78, "P2_MEDIUM": 58}
+  }
+}

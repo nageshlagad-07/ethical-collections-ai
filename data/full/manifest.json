@@ -1,0 +1,92 @@
+{
+  "config": {
+    "anomalies_per_type": 0,
+    "customers_per_loan": 0.72,
+    "extra_account_share": 0.12,
+    "installments_per_loan": 3,
+    "n_anomalies_per_type": 30,
+    "n_loans": 10000,
+    "period_months": 12,
+    "reference_date": "2026-10-22",
+    "seed": 20261022,
+    "target_dir": "data/full",
+    "window_start": "2025-10-23"
+  },
+  "dataset_sha256": "31a2c71ddf7160fa3b36e8ac9b154e13588622886265b1306b4dff399dc8876e",
+  "environment": {
+    "faker": "40.44.0",
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "python": "3.13.18"
+  },
+  "files": {
+    "account.csv": {
+      "rows": 8064,
+      "sha256": "221a0b5bb147df45fc68fe09c9701b612e0a024e99bfa9349383aab520ed5783"
+    },
+    "audit_event.csv": {
+      "rows": 17144,
+      "sha256": "11b9622ccb8b011c1504f3e712a5006a40ccb496d4ee08b38554da3ff092be26"
+    },
+    "collection_case.csv": {
+      "rows": 4864,
+      "sha256": "0289dd11cda13f56e6edcbccfe124b4f54142540dd76266991d290f5838af09d"
+    },
+    "contact_attempt.csv": {
+      "rows": 44115,
+      "sha256": "08e11918075c533e578a1e80d6de1a86eaedef312f7e8f9ec4b4ed3609dde680"
+    },
+    "contact_preference.csv": {
+      "rows": 7721,
+      "sha256": "165ba9f8864a7d3ca72d6e86295bd87f366d2383a0e1d9585e9a4295159deb1b"
+    },
+    "contact_scheduling_log.csv": {
+      "rows": 57739,
+      "sha256": "e00f03cd0c53c7a6a0ba2937a9e6be15321c5eaa69c7422ccd757684955b37ce"
+    },
+    "customer.csv": {
+      "rows": 7200,
+      "sha256": "4517f36d38ec6e45afab967472d66a569571bc016e9eba7778a6f54d3ffe3a6f"
+    },
+    "delinquency_snapshot.csv": {
+      "rows": 69067,
+      "sha256": "a8010efd0f544d9d665874770748ff8eba7a21a7d8b5a9f2333d12ab88ba91e3"
+    },
+    "flag_event.csv": {
+      "rows": 1175,
+      "sha256": "33af1443edbd951abbd69ad653c666dd2292412a24f236bc2780f52b3c5339ce"
+    },
+    "ground_truth.csv": {
+      "rows": 150,
+      "sha256": "99b1f843bf8141e2ca90a997b1c75a78c7f329e60cd34af9be9f89f50c455772"
+    },
+    "ground_truth.json": {
+      "rows": 150,
+      "sha256": "31d3dfc5cc6ccf153dd53c9b64c33948540f7ed164d0fb61baa065378d277995"
+    },
+    "installment.csv": {
+      "rows": 30000,
+      "sha256": "3be95cc078e4d86a218a7b8ee6f18cad18d66d9f68aeb62033045899b0f1be57"
+    },
+    "loan.csv": {
+      "rows": 10000,
+      "sha256": "16e65a7a1665391f4b2702a1c5ad6faa76a3b5430ce7ecee23a07d6fd40f6300"
+    },
+    "payment.csv": {
+      "rows": 24273,
+      "sha256": "91a96118f945d5d77a9b31d43cef7e4e800783287a5ca4293606d1cae4d45410"
+    },
+    "payment_allocation.csv": {
+      "rows": 25892,
+      "sha256": "d7b0a99b4d29a665203c061aedc4fbe06cc0da73b619c4634944020e6aeb5dbd"
+    },
+    "promise_to_pay.csv": {
+      "rows": 2214,
+      "sha256": "d18cd061a55ca85286b84a2e4c936fb743f83eafbe41275904b2369203b2ac76"
+    }
+  },
+  "generator": "collections_ai 1.0.0",
+  "generator_command": "python -m collections_ai.cli generate --loans 10000 --seed 20261022 --out data/full",
+  "ground_truth_note": "ground_truth.* are labels for evaluation ONLY; they are never read by detection or prioritization.",
+  "nondeterministic_fields": "None in generated CSVs. Operational fields written at run time (run_log.started_at, API-created created_at/updated_at/event_ts, API-created audit rows) use wall-clock time."
+}

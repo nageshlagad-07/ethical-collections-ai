@@ -1,0 +1,134 @@
+{
+  "row_counts": {
+    "customer": 7200,
+    "account": 8064,
+    "loan": 10000,
+    "installment": 30000,
+    "payment": 24273,
+    "payment_allocation": 25892,
+    "delinquency_snapshot": 69067,
+    "contact_preference": 7721,
+    "collection_case": 4864,
+    "contact_attempt": 44115,
+    "contact_scheduling_log": 57739,
+    "flag_event": 1175,
+    "promise_to_pay": 2214,
+    "audit_event": 17144,
+    "ground_truth": 150
+  },
+  "db_counts": {
+    "customer": 7200,
+    "account": 8064,
+    "loan": 10000,
+    "installment": 30000,
+    "payment": 24273,
+    "payment_allocation": 25892,
+    "delinquency_snapshot": 69067,
+    "contact_preference": 7721,
+    "collection_case": 4864,
+    "flag_event": 1175,
+    "contact_attempt": 44115,
+    "contact_scheduling_log": 57739,
+    "promise_to_pay": 2214,
+    "audit_event": 17144
+  },
+  "reconciliation": {
+    "run_id": "REC-20261022-001",
+    "payments": 24273,
+    "changed": 0,
+    "status_counts": {
+      "RECONCILED": 24243,
+      "EXCEPTION": 30
+    }
+  },
+  "prioritization": {
+    "run_id": "PRI-20261022-001",
+    "cases": 2005,
+    "by_category": {
+      "P2_MEDIUM": 593,
+      "SUPPRESSED": 374,
+      "P1_HIGH": 362,
+      "P3_LOW": 319,
+      "HARDSHIP_REVIEW": 216,
+      "MONITOR_PROMISE": 141
+    }
+  },
+  "exceptions": {
+    "run_id": "EXC-20261022-001",
+    "exceptions": 150,
+    "by_type": {
+      "PAID_ACCOUNT_IN_COLLECTION": 30,
+      "CONTACT_OUTSIDE_ALLOWED_WINDOW": 30,
+      "PAYMENT_ALLOCATED_TO_WRONG_INSTALLMENT": 30,
+      "PROMISE_AMOUNT_EXCEEDS_ARREARS": 30,
+      "DISPUTED_DEBT_TREATED_AS_CONFIRMED": 30
+    }
+  },
+  "validation": {
+    "checks_total": 114,
+    "checks_passed": 114,
+    "checks_failed": 0,
+    "exceptions_detected": {
+      "PAID_ACCOUNT_IN_COLLECTION": 30,
+      "CONTACT_OUTSIDE_ALLOWED_WINDOW": 30,
+      "PAYMENT_ALLOCATED_TO_WRONG_INSTALLMENT": 30,
+      "PROMISE_AMOUNT_EXCEEDS_ARREARS": 30,
+      "DISPUTED_DEBT_TREATED_AS_CONFIRMED": 30
+    },
+    "all_integrity_checks_passed": true
+  },
+  "reproducible": true,
+  "dataset_sha256": "31a2c71ddf7160fa3b36e8ac9b154e13588622886265b1306b4dff399dc8876e",
+  "evaluation": [
+    {
+      "issue_type": "CONTACT_OUTSIDE_ALLOWED_WINDOW",
+      "ground_truth": 30,
+      "detected": 30,
+      "true_positive": 30,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "DISPUTED_DEBT_TREATED_AS_CONFIRMED",
+      "ground_truth": 30,
+      "detected": 30,
+      "true_positive": 30,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "PAID_ACCOUNT_IN_COLLECTION",
+      "ground_truth": 30,
+      "detected": 30,
+      "true_positive": 30,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "PAYMENT_ALLOCATED_TO_WRONG_INSTALLMENT",
+      "ground_truth": 30,
+      "detected": 30,
+      "true_positive": 30,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    },
+    {
+      "issue_type": "PROMISE_AMOUNT_EXCEEDS_ARREARS",
+      "ground_truth": 30,
+      "detected": 30,
+      "true_positive": 30,
+      "false_positive": 0,
+      "false_negative": 0,
+      "precision": 1.0,
+      "recall": 1.0
+    }
+  ]
+}
